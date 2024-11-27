@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    background-color: #00aeff;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 110px;
+}
+
+.titulos {
+    text-align: center;
+}
+
+
+.lista-planes {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.nombre-plan {
+    color: rgba(243, 220, 18, 0.822);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.caja-plan-popular {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 5px;
+    color: gray;
+    height: 465px;
+    width: 300px;
+}
+
+.caja-plan {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 5px;
+    color: gray;
+    height: 440px;
+    width: 300px;
+}
+
+.contenido-popular {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 620px;
+}
+
+.descripcion-plan {
+    text-align: center;
+    padding: 10px 60px;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.moneda {
+    color: #00aeff;
+    font-size: 20px;
+}
+
+.precio {
+    color: #00aeff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.icono {
+    font-size: 70px;
+    margin-top: 6px;
+}
+
+.destacado {
+    background-color: #ffe4d4;
+    color: #0099ff;
+    font-weight: bolder;
+    text-align: center;
+
+    padding: 15px 50px;
+}
+
+.boton-popular {
+    background-color: #00a2ff;
+    text-decoration: none;
+    padding: 12px 60px;
+    color: white;
+}
+
+.caja-plan > a {
+    padding: 5px 40px;
+    text-decoration: none;
+    color: #0099ff;
+}
+
+.caja-plan > a,
+.boton-popular {
+    margin-bottom: 30px;
+}
+
+
